@@ -26,6 +26,7 @@ var jpure = {
       }
       binaryGarbage += " ";
     }
+    return binaryGarbage;
   }
 };
 window.jpure = jpure; // give all access to variable
