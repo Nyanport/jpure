@@ -1,8 +1,8 @@
 var jpure = {
   "version": "v0.1",
   docs: {
-    'chapterI': "\"minimise\" and \"maximise\" explained.\nMinimise and maximise both originate from StackOverflow,\nhttps:\/\/stackoverflow.com\/a\/56867045",
-    'readdoc': function(doc) { console.log(doc); }
+    'chapterI': ["CHAPTER 1, the first few functions", "\"minimise\" and \"maximise\" explained.\nMinimise and maximise both originate from StackOverflow,\nhttps:\/\/stackoverflow.com\/a\/56867045.\nNow I take a even bigger step, writing some very interesting code.\nI called the piece of code \"binaryGarbage\" because it generated random 1s and 0s.\nI love to push some of the output into a minimise function.\nSee the text with \"binaryGarbage\" in it.\nThe last of the first few functions was mindblowing."], // CHAPTER 1, the first few functions
+    'readdoc': function(doc) { console.log(`${doc[0]}\n\n\n${doc[1]}`); }
   },
   "minimise": function(binary) {
     return String.fromCharCode(
