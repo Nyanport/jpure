@@ -19,7 +19,7 @@ var jpure = {
 
   "binaryGarbage": function(garbageLen) {
     var randNum = 8 + Math.floor(Math.random() * (8+1));
-    str binaryGarbage = "";
+    var binaryGarbage = "";
     for(int i = 0; i < garbageLen; i++){
       for(int i = 0; i < randNum; i++) {
         binaryGarbage += Math.floor(Math.random() * (1+1)).toString();
