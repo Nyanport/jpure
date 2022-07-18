@@ -11,7 +11,7 @@ var jpure = {
   },
   "maximise": function(string) {
     // Minimise and maximise functions explained is on line 5 and so on.
-    return str.split('') // split in single chars
+    return string.split('') // split in single chars
       .map(c => c.charCodeAt(0) // get the UTF-16 code (10 base)
                  .toString(2)) // transform it back to a string (2 base)
       .join(' ') // make single string from array
